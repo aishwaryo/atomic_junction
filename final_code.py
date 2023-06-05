@@ -73,7 +73,7 @@ for i in range(len(a_50)):
     
     
     
-batch_size = 32
+batch_size = 100
 input_dim = len(a_50_select[0])
 learning_rate = 1e-5
 input_layer = Input(shape=(input_dim, ), name="input") #Input Layer
